@@ -1801,6 +1801,28 @@ public final class Settings {
         public static final String AUTO_BRIGHTNESS_TWILIGHT_ADJUSTMENT = "auto_brightness_twilight_adjustment";
 
         /**
+         * The keyboard brightness to be used while the screen is on.
+         * Valid value range is between 0 and {@link PowerManager#getMaximumKeyboardBrightness()}
+         * @hide
+         */
+        public static final String KEYBOARD_BRIGHTNESS = "keyboard_brightness";
+
+        /**
+         * The button brightness to be used while the screen is on or after a button press,
+         * depending on the value of {@link BUTTON_BACKLIGHT_TIMEOUT}.
+         * Valid value range is between 0 and {@link PowerManager#getMaximumButtonBrightness()}
+         * @hide
+         */
+        public static final String BUTTON_BRIGHTNESS = "button_brightness";
+
+        /**
+         * The time in ms to keep the button backlight on after pressing a button.
+         * A value of 0 will keep the buttons on for as long as the screen is on.
+         * @hide
+         */
+        public static final String BUTTON_BACKLIGHT_TIMEOUT = "button_backlight_timeout";
+
+        /**
          * Whether to enable the electron beam animation when turning screen off
          *
          * @hide */
@@ -2728,6 +2750,13 @@ public final class Settings {
         public static final String QS_COLLAPSE_PANEL = "qs_collapse_panel";
 
         /**
+         * Quick Settings Launch in Floating Window
+         * 
+         * @hide
+         */
+        public static final String QS_FLOATING_WINDOW = "qs_floating_window"; 
+
+        /**
          * Quick Settings Quick access ribbon
          *
          * @hide
@@ -2746,7 +2775,7 @@ public final class Settings {
          *
          * @hide
          */
-        public static final String QUICK_SETTINGS_RIBBON_TILES = "quick_settings__ribbon_tiles";
+        public static final String QUICK_SETTINGS_RIBBON_TILES = "quick_settings_ribbon_tiles";
 
         /**
          * Navigation controls to Use
@@ -2800,6 +2829,49 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_BATTERY = "status_bar_battery";
+
+        /**
+         * HALO enabled, should default to 0 (HALO is disabled)
+         * @hide
+         */
+        public static final String HALO_ENABLED = "halo_enabled";
+
+   /**
+         * HALO, should default to 0 (no, do not show)
+         * @hide
+         */
+        public static final String HALO_ACTIVE = "halo_active";
+
+        /**
+         * HALO reversed?, should default to 1 (yes, reverse)
+         * @hide
+         */
+        public static final String HALO_REVERSED = "halo_reversed";
+
+        /**
+         * HALO hide?, should default to 0 (no, do not hide)
+         * @hide
+         */
+        public static final String HALO_HIDE = "halo_hide"; 
+
+        /**
+         * HALO size fraction, default is 1.0f (normal)
+         * @hide
+         */
+        public static final String HALO_SIZE = "halo_size";
+
+        /**
+         * HALO pause activities?, defaults to 0 (no, do not pause) on devices which isLargeRAM() == true
+         * otherwise it defaults to 1 (yes, do pause)
+         * @hide
+         */
+        public static final String HALO_PAUSE = "halo_pause";
+
+        /**
+         * Do you want popups/floating windows?
+         * @hide
+         */
+        public static final String WE_WANT_POPUPS = "we_want_popups"; 
 
         /**
          * Whether to show the clock in status bar
