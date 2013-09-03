@@ -1664,7 +1664,7 @@ public class PhoneStatusBar extends BaseStatusBar {
     final int FLIP_DURATION = (FLIP_DURATION_IN + FLIP_DURATION_OUT);
 
     Animator mScrollViewAnim, mFlipSettingsViewAnim, mNotificationButtonAnim,
-        mSettingsButtonAnim, mHaloButtonAnim, mClearButtonAnim; 
+        mSettingsButtonAnim, mClearButtonAnim, mRibbonViewAnim, mHaloButtonAnim; 
 
     @Override
     public void animateExpandNotificationsPanel() {
