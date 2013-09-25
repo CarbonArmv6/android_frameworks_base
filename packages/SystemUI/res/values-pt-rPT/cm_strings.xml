@@ -46,7 +46,11 @@
     <string name="quick_settings_usb_tether_on_label">Tethering</string>
     <string name="quick_settings_wifiap">Wi-Fi AP</string>
     <string name="quick_settings_wifiap_off">Wi-Fi AP desligado</string>
+<<<<<<< HEAD
 <string name="quick_settings_quiethours">Horas de Silêncio</string>
+=======
+    <string name="quick_settings_quiethours">Horas de Silêncio</string>
+>>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
     <string name="quick_settings_quiethours_off">Horas de Silêncio desligadas</string>
     <string name="quick_settings_lte">LTE</string>
     <string name="quick_settings_lte_off">LTE desligado</string>
@@ -64,8 +68,13 @@
     <string name="navbar_menu_conditional_button">Botão Menu (auto-ocultar)</string>
     <string name="navbar_menu_always_button">Botão Menu (sempre visível)</string>
     <string name="navbar_menu_big_button">Botão de Menu</string>
+<<<<<<< HEAD
 	<string name="accessibility_data_connection_DC">DCHSPAP</string>
 	<string name="pie_battery_status_charging">A carregar (<xliff:g id="percent">%d</xliff:g>%%)</string>
+=======
+    <string name="accessibility_data_connection_DC">DCHSPAP</string>
+    <string name="pie_battery_status_charging">A carregar (<xliff:g id="percent">%d</xliff:g>%%)</string>
+>>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
     <string name="pie_battery_status_full">Carregado</string>
     <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% restante</string>
     <string name="pie_phone_status_no_service">Nenhum Serviço</string>

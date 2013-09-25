@@ -125,6 +125,7 @@ public final class ClientOperation implements Operation, BaseStream {
                     (header).mAuthResp.length);
 
         }
+<<<<<<< HEAD
     }
 
     /**
@@ -134,6 +135,8 @@ public final class ClientOperation implements Operation, BaseStream {
      */
     public void setGetFinalFlag(boolean flag) {
         mGetFinalFlag = flag;
+=======
+>>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
     }
 
     /**
