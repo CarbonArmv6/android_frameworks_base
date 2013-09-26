@@ -9987,11 +9987,7 @@ public class WindowManagerService extends IWindowManager.Stub
             if (mAnimator.isDimmingLocked(Display.DEFAULT_DISPLAY)) {
                 anim[0] = anim[1] = 0;
             } else {
-<<<<<<< HEAD
                 mPolicy.selectDisplayMetricsUpdateAnimationLw(anim);
-=======
-               mPolicy.selectDisplayMetricsUpdateAnimationLw(anim);
->>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
             }
 
             mWaitingForConfig = true;
