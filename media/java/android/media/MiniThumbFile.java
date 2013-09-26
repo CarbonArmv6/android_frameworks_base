@@ -277,11 +277,7 @@ public class MiniThumbFile {
             } catch (RuntimeException ex) {
                 // Other NIO related exception like disk full, read only channel..etc
                 Log.e(TAG, "Got exception when reading index, id = " + id +
-<<<<<<< HEAD
 		                 ", disk full or mount read-only? " + ex.getClass());
-=======
-                     ", disk full or mount read-only? " + ex.getClass());
->>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
             } finally {
                 try {
                     if (lock != null) lock.release();
