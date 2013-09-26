@@ -64,13 +64,8 @@
     <string name="navbar_menu_conditional_button">Botão Menu (auto-ocultar)</string>
     <string name="navbar_menu_always_button">Botão Menu (sempre visível)</string>
     <string name="navbar_menu_big_button">Botão de Menu</string>
-<<<<<<< HEAD
 	<string name="accessibility_data_connection_DC">DCHSPAP</string>
 	<string name="pie_battery_status_charging">A carregar (<xliff:g id="percent">%d</xliff:g>%%)</string>
-=======
-    <string name="accessibility_data_connection_DC">DCHSPAP</string>
-    <string name="pie_battery_status_charging">A carregar (<xliff:g id="percent">%d</xliff:g>%%)</string>
->>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
     <string name="pie_battery_status_full">Carregado</string>
     <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% restante</string>
     <string name="pie_phone_status_no_service">Nenhum Serviço</string>
