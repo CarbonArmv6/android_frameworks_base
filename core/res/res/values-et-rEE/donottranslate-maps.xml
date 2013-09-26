@@ -22,8 +22,4 @@
     <integer-array name="maps_starting_zoom">
         <item>4</item>
     </integer-array>
-<<<<<<< HEAD
 </resources>
-=======
-</resources>
->>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
