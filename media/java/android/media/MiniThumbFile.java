@@ -304,11 +304,7 @@ public class MiniThumbFile {
         RandomAccessFile r = miniThumbDataFile();
 
         if (r != null) {
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> 230db6bb699eef00fb6f409f047231da565c4ca5
             long pos = getIndex(id, false);
             if(pos < 0) return 0;
 
